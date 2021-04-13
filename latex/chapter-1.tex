@@ -1,27 +1,5 @@
 \documentclass{article}
 
-\usepackage{caption}
-                
-\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
-                
-\bibliography{bibliography}
-            
-\usepackage{graphicx}
-                
-\usepackage{calc}
-                
-\newlength{\imgwidth}
-                
-\newcommand\scaledgraphics[2]{%
-                
-\settowidth{\imgwidth}{\includegraphics{#1}}%
-                
-\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
-                
-\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
-                
-}
-            
 \begin{document}
 
 \title{Introduction to Fidus Writer}
@@ -29,21 +7,18 @@
 \maketitle
 
 
-Hello World
+Login to Fidus Writer
 
 
-\begin{center}
-\begin{figure}
-\scaledgraphics{7030f5dc-f21d-4a0c-b860-aaf9baf2bcad.jpg}{0.5}
-\label{F57026431}
-\end{figure}
+GitHub
 
 
-\end{center}
 
 
-\autocite{gesis-bib-65217}
 
 
-\printbibliography[title={Literaturverzeichnis}]
+
+
+
+
 \end{document}
