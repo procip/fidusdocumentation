@@ -41,6 +41,10 @@
         <content src="document-2.xhtml#H6219918" />
       </navPoint>
     </navPoint>
+    <navPoint id="t_3_0-3">
+      <navLabel><text>FWM Figures and Tables</text></navLabel>
+      <content src="document-3.xhtml#_3_0" />
+    </navPoint>
     <navPoint id="t2">
       <navLabel><text>Copyright</text></navLabel>
       <content src="copyright.xhtml#copyright" />
