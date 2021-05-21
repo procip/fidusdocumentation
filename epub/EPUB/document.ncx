@@ -9,6 +9,10 @@
   <navMap>
 
     <!-- 2.01 NCX: playOrder is optional -->
+    <navPoint id="t0">
+      <navLabel><text>Cover</text></navLabel>
+      <content src="cover.xhtml#cover" />
+    </navPoint>
     <navPoint id="t1">
       <navLabel><text>Title page</text></navLabel>
       <content src="titlepage.xhtml#title" />
